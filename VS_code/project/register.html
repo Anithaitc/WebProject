@@ -1,0 +1,55 @@
+<html>
+
+<head>
+    <title>Regestration form</title>
+    <link rel="stylesheet" href="register.css">
+    <script></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="title">Registration</div>
+        <form action="home.html">
+            <div class="user_details">
+                <div class="input_box">
+                    <span class="details">Full Name</span>
+                    <input id="name" type="text" placeholder="Enter your name" required>
+
+                </div>
+                <div class="input_box">
+                    <span class="details">Username</span>
+                    <input id="username" type="text" placeholder="Enter your username" required>
+                </div>
+                <div class="input_box">
+                    <span class="details">Email </span>
+                    <input id="mail" type="email" placeholder="Enter your email" required>
+                </div>
+                <div class="input_box">
+                    <span class="details">Phone Number</span>
+                    <input id="phone" type="tel" placeholder="9876504312" maxlength="10" required>
+                </div>
+                <div class="input_box">
+                    <span class="details">Password</span>
+                    <input id="pass" type="password" placeholder="Enter password" maxlength="10" required>
+                </div>
+                <div class="input_box">
+                    <span class="details">Confirm password</span>
+                    <input id="conpass" type="password" placeholder="Confirm your password" maxlength="10" required>
+                </div>
+            </div>
+            <div class="gender_details">
+
+                <p>Gender:</p>
+                <input id="boy" type="radio" name="gender" required>Male
+                <input id="girl" type="radio" name="gender" required>Female
+                <input id="dont know" type="radio" name="gender" required>Prefer not to say
+            </div>
+            <div class="button">
+                <!--<button class="btn"><a href="home.html">Register</a></button>-->
+                <input type="submit" id="sub" value="Register" onclick="alert('Register sucessfull! Welcome to bike gallery')">
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>

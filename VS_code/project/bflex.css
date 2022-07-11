@@ -1,0 +1,398 @@
+body{ 
+display: flex; 
+align-items: center; 
+justify-content: center; 
+background: url("cover.jpg");
+background-size: cover; 
+} 
+.card 
+{ 
+display: grid; 
+grid-template-columns: 300px; 
+grid-template-rows: 210px 210px 80px; 
+grid-template-areas: "image" "text" "stats"; 
+border-radius: 18px; 
+background: white; 
+box-shadow: 5px 5px 15px rgba(0,0,0,0.9); 
+font-family: roboto; 
+text-align: center; 
+} 
+.card-image 
+{ 
+grid-area: image; 
+} 
+.card-image h1
+{ 
+color: white; 
+text-align: start; 
+} 
+.card-text 
+{ 
+grid-area: text; 
+} 
+.card-stats 
+{ 
+grid-area: stats;  
+} 
+.card-image 
+{ 
+grid-area: image; 
+background: url("vintage.jpg"); 
+border-top-left-radius: 15px; 
+border-top-right-radius: 15px; 
+background-size: cover; 
+} 
+.card-text 
+{ 
+grid-area: text; 
+margin: 25px; 
+} 
+.card-text .date 
+{ 
+ color: rgb(51, 45, 47); 
+font-size:13px; 
+} 
+.card-text p
+{ 
+color: grey; 
+font-size:20px; 
+font-weight: 300; 
+} 
+.card-text h2 
+{ 
+margin-top:0px; 
+font-size:28px; 
+} 
+.card-stats .stat 
+{ 
+display: flex; 
+align-items: center; 
+justify-content: center; 
+flex-direction: column; 
+color: black; 
+padding:10px; 
+} 
+.card:hover 
+{ 
+transform: scale(1.15); 
+box-shadow: 5px 5px 15px rgba(0,0,0,0.6); 
+} 
+.card 
+{ 
+transition: 0.5s ease; 
+cursor: pointer; 
+margin:30px; 
+} 
+.card1 
+{ 
+display: grid; 
+grid-template-columns: 300px; 
+grid-template-rows: 210px 210px 80px; 
+grid-template-areas: "image" "text" "stats"; 
+border-radius: 18px; 
+background: white; 
+box-shadow: 5px 5px 15px rgba(0,0,0,0.9); 
+font-family: roboto; 
+text-align: center; 
+} 
+.card-image1 
+{ 
+grid-area: image; 
+} 
+.card-image1 h1
+{ 
+color: white; 
+text-align: start; 
+} 
+.card-text1 
+{ 
+grid-area: text; 
+} 
+.card-stats1 
+{ 
+grid-area: stats;  
+} 
+.card-image1 
+{ 
+grid-area: image; 
+background: url("sports\ 2.jpg"); 
+border-top-left-radius: 20px; 
+border-top-right-radius: 20px; 
+background-size: 100%; 
+} 
+.card-text1
+{ 
+grid-area:text; 
+margin: 25px; 
+} 
+.card-text1 .date1 
+{ 
+color: rgb(51, 45, 47); 
+font-size:13px; 
+} 
+.card-text1 p 
+{ 
+color: grey; 
+font-size:20px; 
+font-weight: 300; 
+} 
+.card-text1 h2 
+{ 
+margin-top:0px; 
+font-size:28px; 
+} 
+.card-stats1 .stat1 
+{ 
+display: flex; 
+
+align-items: center; 
+justify-content: center; 
+flex-direction: column; 
+color: white; 
+padding:10px; 
+} 
+.card1:hover 
+{ 
+transform: scale(1.15); 
+box-shadow: 5px 5px 15px rgba(0,0,0,0.6); 
+} 
+.card1
+{ 
+transition: 0.5s ease; 
+cursor: pointer; 
+margin:30px; 
+} 
+.card2 
+{ 
+display: grid; 
+grid-template-columns: 300px; 
+grid-template-rows: 210px 210px 80px; 
+grid-template-areas: "image" "text" "stats"; 
+border-radius: 18px; 
+background: white; 
+box-shadow: 5px 5px 15px rgba(0,0,0,0.9); 
+font-family: roboto; 
+text-align: center; 
+} 
+.card-image2 
+{ 
+grid-area: image; 
+} 
+.card-image2 h1
+{ 
+color: white; 
+text-align: start; 
+} 
+.card-text2 
+{ 
+grid-area: text; 
+} 
+.card-stats2 
+{ 
+grid-area: stats;  
+} 
+.card-image2 
+{ 
+grid-area: image; 
+background: url("offroad.jpg"); 
+border-top-left-radius: 15px; 
+border-top-right-radius: 15px; 
+background-size: cover; 
+ } 
+.card-text2 
+{ 
+grid-area: text; 
+margin: 25px; 
+} 
+.card-text2 .date2 
+{ 
+color: rgb(51, 45, 47); 
+font-size:13px; 
+} 
+.card-text2 p 
+{ 
+color: grey; 
+font-size:20px; 
+font-weight: 300; 
+} 
+.card-text2 h2 
+{ 
+margin-top:0px; 
+font-size:28px; 
+} 
+.card-stats2 .stat2 
+{ 
+display: flex; 
+align-items: center; 
+justify-content: center; 
+flex-direction: column; 
+color: white; 
+padding:10px; 
+} 
+.card2:hover 
+{ 
+transform: scale(1.15); 
+box-shadow: 5px 5px 15px rgba(0,0,0,0.6); 
+} 
+.card2
+{ 
+transition: 0.5s ease; 
+cursor: pointer; 
+margin:30px; 
+} 
+.card3 
+{ 
+display: grid; 
+grid-template-columns: 300px; 
+grid-template-rows: 210px 210px 80px; 
+grid-template-areas: "image" "text" "stats"; 
+border-radius: 18px; 
+background: white; 
+box-shadow: 5px 5px 15px rgba(0,0,0,0.9); 
+font-family: roboto; 
+text-align: center; 
+} 
+.card-image3 
+{ 
+grid-area: image; 
+} 
+.card-image3 h1
+{ 
+color: white; 
+text-align: start; 
+} 
+.card-text3 
+{ 
+grid-area: text; 
+} 
+.card-stats3 
+{ 
+grid-area: stats;  
+} 
+.card-image3 
+{ 
+grid-area: image; 
+background: url("sccoter.jpg"); 
+border-top-left-radius: 15px; 
+border-top-right-radius: 15px; 
+background-size: cover; 
+} 
+.card-text3 
+{ 
+grid-area: text; 
+margin: 25px; 
+} 
+.card-text3 .date3 
+{ 
+color: rgb(51, 45, 47); 
+font-size:13px; 
+} 
+.card-text3 p 
+{ 
+color: grey; 
+font-size:20px; 
+font-weight: 300; 
+} 
+.card-text3 h2 
+{ 
+margin-top:0px; 
+font-size:28px; 
+} 
+.card-stats3 .stat3 
+{ 
+display: flex; 
+align-items: center; 
+justify-content: center; 
+flex-direction: column; 
+color: white; 
+padding:10px; 
+} 
+.card3:hover 
+{ 
+transform: scale(1.15); 
+box-shadow: 5px 5px 15px rgba(0,0,0,0.6); 
+} 
+.card3 
+{ 
+transition: 0.5s ease; 
+cursor: pointer; 
+margin:30px; 
+} 
+.card4 
+{ 
+display: grid; 
+grid-template-columns: 300px; 
+grid-template-rows: 210px 210px 80px; 
+grid-template-areas: "image" "text" "stats"; 
+border-radius: 18px; 
+background: white; 
+box-shadow: 5px 5px 15px rgba(0,0,0,0.9); 
+font-family: roboto; 
+text-align: center; 
+} 
+.card-image4 
+{ 
+grid-area: image; 
+} 
+.card-image4 h1
+{ 
+color: white; 
+text-align: start; 
+} 
+.card-text4 
+{ 
+grid-area: text; 
+} 
+.card-stats4 
+{ 
+grid-area: stats;  
+} 
+.card-image4 
+{ 
+grid-area: image; 
+background: url("jupiter.jfif"); 
+border-top-left-radius: 15px; 
+border-top-right-radius: 15px; 
+background-size: cover; 
+} 
+.card-text4 
+{ 
+grid-area: text; 
+margin: 25px; 
+} 
+.card-text4 .date4 
+{ 
+color: rgb(51, 45, 47); 
+font-size:13px; 
+} 
+.card-text4 p 
+{ 
+color: grey; 
+font-size:22px; 
+font-weight: 300; 
+} 
+.card-text4 h2 
+{ 
+margin-top:0px; 
+font-size:28px; 
+} 
+.card-stats4 .stat4 
+{ 
+display: flex; 
+align-items: center; 
+justify-content: center; 
+flex-direction: column; 
+color: white; 
+padding:10px; 
+} 
+.card4:hover 
+{ 
+transform: scale(1.15); 
+box-shadow: 5px 5px 15px rgba(0,0,0,0.6); 
+} 
+.card4 
+{ 
+transition: 0.5s ease; 
+cursor: pointer; 
+margin:30px; 
+} 

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Booking form</title>
+    <link rel="stylesheet" href="booking.css">
+    <script type="text/javascript">
+        function msgprint() {
+            alert("Successfully Submitted")
+        }
+    </script>
+</head>
+
+<body>
+    <div class="bookform">
+        <h1> Booking Form</h1>
+    </div>
+    <div class="main">
+        <form action="home.html">
+            <div id="name">
+                <h2 class="name">Name</h2>
+                <input class="Firstname" id="Fname" type="text" name="First_name" placeholder="firstname" required><br>
+                <label class="Firstlabel">Firstname</label>
+                <input class="Lastname" id="Lname" type="text" name="Last_name" placeholder="lastname" required><br>
+                <label class="lastlabel">Lastname</label>
+            </div>
+
+            <h2 class="name">Address</h2>
+            <input class="Address" id="Address" type="text" name="Address" placeholder="address" required>
+
+            <h2 class="name">Email</h2>
+            <input class="email" id="mail" type="email" name="Email" placeholder="email" required>
+
+            <h2 class="name"> PhoneNumber</h2>
+            <input class="Phonenumber" id="Phno" type="tel" name="Phonenumber" maxlength="10" placeholder="9876553321"
+                required>
+
+            <h2 class="name">Date of Birth</h2>
+            <input class="date" type="date" id="DOB" name="name">
+
+
+            <h2 class="name">Gender</h2>
+            <label class="name">
+                <select class="gender" id="option" name="gender">
+                    <option disabled="disabled" selected="selected">Choose</option>
+                    <option>Male</option>
+                    <option>Female</option>
+                    <option>others</option>
+                </select>
+
+
+            </label>
+            <h2 class="name">Model</h2>
+            <h2 class="modell-checkbox">
+                <input type="checkbox" id="V1" name="option1" value="Model1" />Vintage
+            </h2>
+            <h2 class="model2-checkbox">
+                <input type="checkbox" id="S1" name="option2" value="Model2" />Sports
+            </h2>
+            <h2 class="model3-checkbox">
+                <input type="checkbox" id="OF1" name="option3" value="Model3" />Off Road
+            </h2>
+            <h2 class="model4-checkbox">
+                <input type="checkbox" id="SC1" name="option4" value="Model4" />Scooters
+            </h2>
+            </h2>
+
+            <h2 class="name">Price Range</h2>
+            <div class="name">
+                <div class="field">
+                    <span>Min</span>
+                    <input type="tel" id="Min" class="input-min" value="0">
+                </div>
+                <div class="separator">---</div>
+                <div class="field1">
+                    <span>Max</span>
+                    <input type="tel" id="Max" class="input-max" value="0">
+                </div>
+                <button type="submit" id="submit" value="submit" onclick="msgprint()">Submit</button>
+        </form>
+    </div>
+
+</body>
